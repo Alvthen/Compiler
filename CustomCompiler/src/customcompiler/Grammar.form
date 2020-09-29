@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="menuLexer">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="menuFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemExit">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+Q"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemExitActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuHelp">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Help"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menutItemHelp">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+H"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="User help"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menutItemHelpActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menutItemGrammar">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+G"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Grammar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menutItemGrammarActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="menuLexer"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="692" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelTitle4" alignment="0" min="-2" pref="173" max="-2" attributes="0"/>
+                          <Component id="labelTitle3" min="-2" pref="194" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="labelTitle5" min="-2" pref="192" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="400" max="-2" attributes="0"/>
+                      <Component id="buttonReturn" min="-2" pref="130" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="332" max="-2" attributes="0"/>
+                      <Component id="labelTitle2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+              <Component id="labelTitle3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+              <Component id="labelTitle4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
+              <Component id="labelTitle5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <Component id="labelTitle2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="580" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="buttonReturn" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="buttonReturn">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Return"/>
+        <Property name="toolTipText" type="java.lang.String" value="Goes back to main menu"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonReturnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelTitle2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Lex Grammar"/>
+        <Property name="alignmentX" type="float" value="45.0"/>
+        <Property name="alignmentY" type="float" value="15.0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelTitle3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="18" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;Curly braces&lt;br&gt;&#xa;denote new scope.&lt;/html&gt;"/>
+        <Property name="alignmentX" type="float" value="45.0"/>
+        <Property name="alignmentY" type="float" value="15.0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelTitle4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="18" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="= is assignment."/>
+        <Property name="alignmentX" type="float" value="45.0"/>
+        <Property name="alignmentY" type="float" value="15.0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelTitle5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="18" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="== is test for equality."/>
+        <Property name="alignmentX" type="float" value="45.0"/>
+        <Property name="alignmentY" type="float" value="15.0"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Helvetica" size="18" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x9;Program &#x9;&#x9;::== Block $&#xa;&#xa;&#x9;Block &#x9;&#x9;::== { StatementList }&#xa;&#xa;&#x9;StatementList &#x9;&#x9;::== Statement StatementList&#xa;&#x9;&#x9;&#x9;::== &#x3b5;&#xa;&#xa;&#x9;Statement &#x9;&#x9;::== PrintStatement&#xa;&#x9;&#x9;&#x9;::== AssignmentStatement&#xa;&#x9;&#x9;&#x9;::== VarDecl&#xa;&#x9;&#x9;&#x9;::== WhileStatement&#xa;&#x9;&#x9;&#x9;::== IfStatement&#xa;&#x9;&#x9;&#x9;::== Block&#xa;&#xa;&#x9;PrintStatement &#x9;::== print ( Expr )&#xa;&#x9;AssignmentStatement &#x9;::== Id = Expr&#xa;&#x9;VarDecl &#x9;&#x9;::== type Id&#xa;&#x9;WhileStatement &#x9;::== while BooleanExpr Block&#xa;&#x9;IfStatement &#x9;&#x9;::== if BooleanExpr Block&#xa;&#xa;&#x9;Expr &#x9;&#x9;::== IntExpr&#xa;&#x9;&#x9;&#x9;::== StringExpr&#xa;&#x9;&#x9;&#x9;::== BooleanExpr&#xa;&#x9;&#x9;&#x9;::== Id&#xa;&#xa;&#x9;IntExpr&#x9; &#x9;::== digit intop Expr&#xa;&#x9;&#x9;&#x9;::== digit&#xa;&#xa;&#x9;StringExpr &#x9;&#x9;::== &quot; CharList &quot;&#xa;&#x9;BooleanExpr &#x9;&#x9;::== ( Expr boolop Expr )&#xa;&#x9;&#x9;&#x9;::== boolval&#xa;&#x9;Id &#x9;&#x9;::== char&#xa;&#x9;CharList &#x9;&#x9;::== char CharList&#xa;&#x9;&#x9;&#x9;::== space CharList&#xa;&#x9;&#x9;&#x9;::== &#x3b5;&#xa;&#x9;&#xa;&#x9;type &#x9;&#x9;::== int | string | boolean&#xa;&#x9;char &#x9;&#x9;::== a | b | c ... z&#xa;&#x9;space &#x9;&#x9;::== the space character&#xa;&#x9;digit &#x9;&#x9;::== 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9&#xa;&#xa;&#x9;boolop &#x9;&#x9;::== == | !=&#xa;&#x9;boolval &#x9;&#x9;::== false | true&#xa;&#x9;intop &#x9;&#x9;::== +&#xa;&#xa;&#xa;&#x9;Comments are bounded by /* and */ and ignored by the lexer."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
